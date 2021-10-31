@@ -1,0 +1,19 @@
+.Burger {
+    width: 100%;
+    margin: auto;
+    height: 350px;
+    overflow-y: scroll;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    margin: 5px;
+}
+
+.Burger::-webkit-scrollbar{
+    display: none
+}
+
+.Burger {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+}
